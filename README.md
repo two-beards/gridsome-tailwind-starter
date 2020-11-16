@@ -1,14 +1,7 @@
-# Default starter for Gridsome
+# Gridsome Tailwind Starter
 
-This is the project you get when you run `gridsome create new-project`.
+This is a starter template for a Gridsome site with Tailwind. It has some opinions and what we think are sane defaults for getting up and running quickly.
 
-### 1. Install Gridsome CLI tool if you don't have
+## Usage
 
-`npm install --global @gridsome/cli`
-
-### 2. Create a Gridsome project
-
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+[Read the docs on GitHub](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) to learn how to create a repository from a template.
