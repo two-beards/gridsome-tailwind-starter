@@ -6,6 +6,16 @@
 
 <script>
 export default {
-    name: 'FooterLink'
+    name: 'FooterLink',
+    props: {
+        title: {
+            type: String,
+            required: true,
+        },
+        to: {
+            type: String,
+            required: true,
+        },
+    },
 }
 </script>

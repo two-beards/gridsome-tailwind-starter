@@ -1,5 +1,5 @@
 <template>
-    <footer class="py-12 text center">
+    <footer class="py-12 text-center">
         <FooterLink :to="githubUrl" title="GitHub" />
     </footer>
 </template>
