@@ -1,0 +1,36 @@
+{
+    "name": "gridsome-tailwind-starter",
+    "description": "An opinionated starter template for Gridsome sites using TailwindCSS.",
+    "version": "1.0.0",
+    "engines": {
+        "node": ">=12.x"
+    },
+    "scripts": {
+        "build": "gridsome build",
+        "develop": "gridsome develop",
+        "explore": "gridsome explore"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/two-beards/gridsome-tailwind-starter.git"
+    },
+    "keywords": [
+        "gridsome",
+        "tailwindcss",
+        "starter",
+        "template",
+        "vue"
+    ],
+    "author": "two-beards",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/two-beards/gridsome-tailwind-starter/issues"
+    },
+    "homepage": "https://github.com/two-beards/gridsome-tailwind-starter#readme",
+    "dependencies": {
+        "gridsome": "^0.7.0"
+    },
+    "devDependencies": {
+        "gridsome-plugin-tailwindcss": "^3.0.1"
+    }
+}
