@@ -1,12 +1,18 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
-    future: {
-        removeDeprecatedGapUtilities: true,
-        purgeLayersByDefault: true,
-        defaultLineHeights: true
+    purge: {
+        content: [
+            './src/**/*.vue',
+        ]
     },
-    purge: [],
     theme: {
-        extend: {},
+        // by default, just include all the tailwind colors.
+        // we will likely customize these anyway but it helps to get started.
+        colors: { ...colors }
+    },
+    corePlugins: {
+        container: false
     },
     variants: {},
     plugins: [],

@@ -1,6 +1,10 @@
 module.exports = {
     siteName: require('./package.json').name,
-    plugins: [
-        { use: "gridsome-plugin-tailwindcss" }
-    ]
+    css: {
+        loaderOptions: {
+            postcss: {
+                plugins: [require('tailwindcss')()]
+            }
+        }
+    }
 }

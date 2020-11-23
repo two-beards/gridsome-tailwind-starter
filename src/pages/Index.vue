@@ -11,33 +11,33 @@
             as much as it helps us. Cheers!
         </p>
 
-        <p class="leading-relaxed text-lg text-gray-800">
+        <p class="leading-relaxed text-lg text-gray-800 space-x-6">
             <a
                 href="https://gridsome.org/docs/"
                 target="_blank"
                 rel="noopener"
-                class="text-blue-500 underline inline-block mr-4"
+                class="text-blue-500 underline inline-block"
                 >Gridsome Docs</a
             >
             <a
                 href="https://github.com/gridsome/gridsome"
                 target="_blank"
                 rel="noopener"
-                class="text-blue-500 underline inline-block mr-4"
+                class="text-blue-500 underline inline-block"
                 >Gridsome GitHub</a
             >
             <a
                 href="https://tailwindcss.com/docs"
                 target="_blank"
                 rel="noopener"
-                class="text-blue-500 underline inline-block mr-4"
+                class="text-blue-500 underline inline-block"
                 >Tailwind Docs</a
             >
             <a
                 href="https://github.com/tailwindlabs/tailwindcss"
                 target="_blank"
                 rel="noopener"
-                class="text-blue-500 underline inline-block mr-4"
+                class="text-blue-500 underline inline-block"
                 >Tailwind GitHub</a
             >
         </p>
